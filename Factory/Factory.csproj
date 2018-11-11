@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bike\ConcreteVehiculeFactory.cs" />
+    <Compile Include="Bike\IFactory.cs" />
+    <Compile Include="Bike\VehicleFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bike\Bike.cs" />
+    <Compile Include="Theorie\ConcreteCreator.cs" />
+    <Compile Include="Theorie\ConcreteProductA.cs" />
+    <Compile Include="Theorie\ConcreteProductB.cs" />
+    <Compile Include="Theorie\Creator.cs" />
+    <Compile Include="Theorie\IProduct.cs" />
+    <Compile Include="Bike\Scooter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
